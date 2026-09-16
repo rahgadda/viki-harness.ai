@@ -1,0 +1,18 @@
+[project]
+name = "viki-harness-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+viki-harness = "viki_harness.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["viki_harness"]
+package-dir = { viki_harness = "viki-harness" }

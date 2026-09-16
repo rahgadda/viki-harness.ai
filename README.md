@@ -9,4 +9,12 @@
 
 ## Installation
 
+From the project root, run:
+
+```bash
+bash install.sh
+```
+
+The script installs uv if it is not already available, then starts the application using `uv run viki-harness`.
+
 ## Demo
